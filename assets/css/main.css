@@ -6874,7 +6874,12 @@ input, select, textarea {
 
 			.gallery.style2 article .image {
 				display: block;
-				width: 100%;
+				/* width: 100%; */
+				height: 300px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
 				border-radius: 0;
 			}
 
