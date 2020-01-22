@@ -396,23 +396,36 @@
 						<section class="wrapper style1 align-center">
 							<div class="inner medium" id="contactform">
 								<h2>Subscribe</h2>
-								<form method="post" action="#">
+								<form method="post" action="#" style="text-align: center;">
 									<div class="fields">
 										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" value="" />
+											<label for="duration">Duration</label>
+											<select name="duration">
+												<option value="1 week">1 week</option>
+												<option value="1 month">1 month</option>
+												<option value="3 months">3 months</option>
+												<option value="1 year">1 year</option>
+											  </select>
 										</div>
 										<div class="field half">
-											<label for="email">Email</label>
-											<input type="email" name="email" id="email" value="" />
+											<label for="type">Type</label>
+											<select name="type">
+												<option value="single time">Single time</option>
+												<option value="recurring">Recurring</option>
+
+											  </select>
 										</div>
 										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
+											<label for="amount">Pay as you feel</label>
+											£<input type="number" name="amount" id="amount" value="" />
+										</div>
+										<div class="field">
+											<label for="message">Dietary requirements</label>
+											<textarea name="message" id="message" rows="6" placeholder="If none, leave blank."></textarea>
 										</div>
 									</div>
 									<ul class="actions special">
-										<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+										<li><input type="submit" name="submit" id="submit" value="Submit" /></li>
 									</ul>
 								</form>
 							</div>
