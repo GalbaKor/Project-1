@@ -12,6 +12,38 @@
 	background-color: #111; /* Black*/
 	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
+#mapimg {
+	width:100%;
+}
+
+iframe {
+	width:1080px; 
+	height:720px;
+}
+@media only screen and (max-width: 1080px){
+	iframe {
+		width: 720px;
+		height: 640px;
+	}
+}
+@media only screen and (max-width: 768px){
+	iframe {
+		width: 640px;
+		height: 480px;
+	}
+}
+@media only screen and (max-width: 425px){
+	iframe {
+		width: 360px;
+		height: 240px;
+	}
+}
+@media only screen and (max-width: 375px){
+	iframe {
+		width: 240px;
+		height: 144px;
+	}
+}
 
 
 /*
