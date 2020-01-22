@@ -5,10 +5,10 @@
 */
 
 
-document.getElementById("submit").onclick = function() {myAlert()} 
+/* document.getElementById("submit").onclick = function() {myAlert()} 
 function myAlert() {
 	alert("Your message has been received and you will hear from us shortly!");
-  }
+  } */
 
 
 (function($) {
