@@ -372,32 +372,32 @@
 						<section class="wrapper style1 align-center">
 							<div class="inner medium" id="contactform">
 								<h2>Get in touch</h2>
-								<form> <!--<form method="post" action="#">-->
+								<form name="contactForm" onsubmit="return myAlert()"> <!--<form method="post" action="#">-->
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" value="" required/>
+											<input type="text" name="fname" id="name" value="" required/>
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="email" name="email" id="email" value="" required/>
+											<input type="email" name="femail" id="email" value="" required/>
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6" required></textarea>
+											<textarea name="fmessage" id="message" rows="6" required></textarea>
 										</div>
 									</div>
 									<ul class="actions special">
-										<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+										<li><input type="submit" name="fsubmit" id="submit" value="Send Message" /></li>
 									</ul>
-								</form
+								</form>
 							</div>
 						</section>
 					<!-- Eight -->
 						<section class="wrapper style1 align-center">
 							<div class="inner medium" id="subform">
 								<h2>Subscribe</h2>
-								<form method="post" action="#">
+								<form method="post" onsubmit="return myThanks()"> <!--<form method="post" action="#">-->
 									<div class="fields">
 										<div class="field half">
 											<label for="duration">Duration</label>
@@ -439,11 +439,12 @@
 									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									<!-- <li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li> -->
 									<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
-								Website created via <a href="https://html5up.net">HTML5 UP</a> and released for free under the <a href="https://html5up.net/license">Creative Commons</a>
-								<p> &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								Website created by adapting <a href="https://html5up.net/story">HTML5 UP - "Story"</a> a website released for free under the <a href="https://html5up.net/license">Creative Commons</a>
+								by <a href="https://twitter.com/ajlkn" class="icon brands style1 fa-twitter">ajlkn</a><br>Designed by <a href="http://camerontebbenhamsmall.panel.uwe.ac.uk/wordpress/">Cameron Tebbenham-Small</a> and hosted by <a href="https://github.com/">Github</a>
+								<!-- <p> &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> -->
 							</div>
 						</footer>
 
