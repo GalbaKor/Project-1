@@ -4,6 +4,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* nav menu */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
 /* If form is filled correctly, returns an alert */
 function myAlert() {
 	alert("Your message has been received and you will hear from us shortly!");
