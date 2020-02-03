@@ -110,13 +110,22 @@
 						<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 							<div class="content">
 								<h2>How can you help the food waste crisis?</h2>
-								<p>We are actively seeking <b>volunteers</b> for roles such as <b>cooking</b> and <b>waitering</b> at the restaurant and café and <b>management of goods</b> via our warehouse.
-									<br><br>If you wish to aid our fight against food waste, get in contact through our form below. If you can't volunteer, don't worry! You are 
+								<p>We are actively seeking <b>volunteers</b> for roles such as<br></p>
+								<ul>
+									<li>Cooking</li>
+									<li>Waitering</li>
+									<li>Warehouse distribution</li>
+									<li>Goods organisation</li>
+								</ul>
+								<p>We also accept donations in store or online. <br><br>If you wish to aid our fight against food waste, get in contact through our form below.</b>If you can't volunteer, don't worry! You are 
 									still helping by attending our restaurant and café or subscribing to our warehouse food-box scheme.
 								</p>
 								<ul class="actions stacked">
 									<li><a href="#contactform" class="button smooth-scroll-middle">Contact</a></li>
 								</ul>
+								<ul class="actions stacked">
+										<li><a href="#donationform" class="button smooth-scroll-middle">Donation</a></li>
+									</ul>
 							</div>
 							<div class="image">
 								<img src="../Project-1/images/cooking2.jpg" alt="" />
@@ -169,8 +178,8 @@
 										<a href="../Project-1/images/1.jpeg" class="image">
 											<img src="../Project-1/images/1.jpeg" alt="" />
 										</a>
-										<div class="caption">
-											<!--<h3>Ipsum Dolor</h3>
+										<!--<div class="caption">
+											<h3>Ipsum Dolor</h3>
 											<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 											<ul class="actions fixed">
 												<li><span class="button small">Details</span></li>
@@ -181,8 +190,8 @@
 										<a href="../Project-1/images/2.jpeg" class="image">
 											<img src="../Project-1/images/2.jpeg" alt="" />
 										</a>
-										<div class="caption">
-											<!--<h3>Feugiat Lorem</h3>
+										<!--<div class="caption">
+											<h3>Feugiat Lorem</h3>
 											<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 											<ul class="actions fixed">
 												<li><span class="button small">Details</span></li>
@@ -217,8 +226,8 @@
 										<a href="../Project-1/images/5.jpeg" class="image">
 											<img src="../Project-1/images/5.jpeg" alt="" />
 										</a>
-										<div class="caption">
-											<!--<h3>Ultrices Magna</h3>
+										<!--<div class="caption">
+											<h3>Ultrices Magna</h3>
 											<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 											<ul class="actions fixed">
 												<li><span class="button small">Details</span></li>
@@ -253,8 +262,8 @@
 										<a href="../Project-1/images/8.jpeg" class="image">
 											<img src="../Project-1/images/8.jpeg" alt="" />
 										</a>
-										<div class="caption">
-											<!--<h3>Magna Risus</h3>
+										<!--<div class="caption">
+											<h3>Magna Risus</h3>
 											<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 											<ul class="actions fixed">
 												<li><span class="button small">Details</span></li>
@@ -265,8 +274,8 @@
 										<a href="../Project-1/images/9.jpg" class="image">
 											<img src="../Project-1/images/9.jpg" alt="" />
 										</a>
-										<div class="caption">
-											<!--<h3>Tempus Dolor</h3>
+										<!--<div class="caption">
+											<h3>Tempus Dolor</h3>
 											<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 											<ul class="actions fixed">
 												<li><span class="button small">Details</span></li>
@@ -277,8 +286,8 @@
 										<a href="../Project-1/images/10.jpg" class="image">
 											<img src="../Project-1/images/10.jpg" alt="" />
 										</a>
-										<div class="caption">
-											<!--<h3>Sed Etiam</h3>
+										<!--<div class="caption">
+											<h3>Sed Etiam</h3>
 											<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 											<ul class="actions fixed">
 												<li><span class="button small">Details</span></li>
@@ -289,8 +298,8 @@
 										<a href="../Project-1/images/11.jpg" class="image">
 											<img src="../Project-1/images/11.jpg" alt="" />
 										</a>
-										<div class="caption">
-											<!--<h3>Magna Lorem</h3>
+										<!--<div class="caption">
+											<h3>Magna Lorem</h3>
 											<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 											<ul class="actions fixed">
 												<li><span class="button small">Details</span></li>
@@ -301,8 +310,8 @@
 										<a href="../Project-1/images/12.jpg" class="image">
 											<img src="../Project-1/images/12.jpg" alt="" />
 										</a>
-										<div class="caption">
-											<!--<h3>Ipsum Dolor</h3>
+										<!--<div class="caption">
+											<h3>Ipsum Dolor</h3>
 											<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
 											<ul class="actions fixed">
 												<li><span class="button small">Details</span></li>
@@ -447,6 +456,33 @@
 								</form>
 							</div>
 						</section>
+
+						<!-- Donate -->
+						<section class="wrapper style1 align-center">
+								<div class="inner medium" id="subform">
+									<h2>Donations</h2>
+									<form method="post" onsubmit="return donationReceived()"> <!--<form method="post" action="#">-->
+										<div class="fields">
+											<div class="field half">
+												<label for="duration">Duration</label>
+												<select name="duration">
+													<option value="1 time">Single time donation</option>
+													<option value="1 week">Every week</option>
+													<option value="1 month">Every month</option>
+													<option value="3 months">Every year</option>
+												  </select>
+											</div>
+											<div class="field half">
+												<label for="amount">Pay as you feel (£)</label>
+												<input type="number" name="amount" id="amount" value="" required/>
+											</div>
+										</div>
+										<ul class="actions special">
+											<li><input type="submit" name="submit" id="submit" value="Submit" /></li>
+										</ul>
+									</form>
+								</div>
+							</section>
 
 						<!-- Socials Timeline Example-->
 						<section class="wrapper style1 align-center">

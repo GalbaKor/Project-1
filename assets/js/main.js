@@ -22,6 +22,9 @@ function myThanks() {
 	alert("Thank you for your patronage! You may retrieve your goods from our warehouse during our opening hours.");
   }
 
+  function donationReceived() {
+	alert("Thank you for your donation and your part in helping to end food waste!");
+  }
 
 
 (function($) {
