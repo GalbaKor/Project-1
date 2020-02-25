@@ -24,7 +24,7 @@
 		<a href="#first" class="smooth-scroll-middle"><i class="fa fa-fw fa-question"></i>
 		<a href="#when" class="smooth-scroll-middle"><i class="fa fa-fw fa-map-signs"></i> </a>
 		<a href="#contactform" class="smooth-scroll-middle"><i class="fa fa-fw fa-envelope"></i> </a>
-		<a href="#subform" class="smooth-scroll-middle"><i class="fa fa-fw fa-pound-sign"></i> </a>
+		<a href="#subscriptionform" class="smooth-scroll-middle"><i class="fa fa-fw fa-pound-sign"></i> </a>
 	</div>
 
 					<!-- Title -->
@@ -46,7 +46,7 @@
 						<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 							<div class="content">
 								<h2>About</h2>
-								<p>We are a non profit organisation operating a Pay As You Feel restaurant, café and warehouse. 
+								<p>We are a non profit organisation operating a <b>Pay As You Feel</b> restaurant, café and warehouse. 
 								<br>Working alongside local distributors, food that would otherwise be sent to a landfill is instead diverted to us. 
 								<br>We then create meals with said food in our restaurant and café, or give to customers via our warehouse food-box subscription service. 
 								<br><br>Click the button to see where you can find us, or read on to discover more about what we do!
@@ -110,7 +110,7 @@
 						<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 							<div class="content">
 								<h2>How can you help the food waste crisis?</h2>
-								<p>We are actively seeking <b>volunteers</b> for roles such as<br></p>
+								<p>If you wish to contribute but can't afford to pay, we are actively seeking <b>volunteers</b> for roles such as<br></p>
 								<ul>
 									<li>Cooking</li>
 									<li>Waitering</li>
@@ -420,9 +420,9 @@
 
 					<!-- Subscribe -->
 						<section class="wrapper style1 align-center">
-							<div class="inner medium" id="subform">
+							<div class="inner medium" id="subscriptionform">
 								<h2>Subscribe</h2>
-								<form method="post" onsubmit="return myThanks()"> <!--<form method="post" action="#">-->
+								<form name="subscriptionform" method="post" onsubmit="return myThanks()"> <!--<form method="post" action="#">-->
 									<div class="fields">
 										<div class="field half">
 											<label for="duration">Duration</label>
@@ -459,9 +459,9 @@
 
 						<!-- Donate -->
 						<section class="wrapper style1 align-center">
-								<div class="inner medium" id="subform">
+								<div class="inner medium" id="donationform">
 									<h2>Donations</h2>
-									<form method="post" onsubmit="return donationReceived()"> <!--<form method="post" action="#">-->
+									<form name="donationform" method="post" onsubmit="return donationReceived()"> <!--<form method="post" action="#">-->
 										<div class="fields">
 											<div class="field half">
 												<label for="duration">Duration</label>
